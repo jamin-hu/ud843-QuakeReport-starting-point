@@ -123,7 +123,7 @@ public final class QueryUtils {
 
     private static ArrayList<Earthquake> extractFeaturesFromJSON(String jsonString){
 
-        List<Earthquake> earthquakes = new ArrayList<>();
+        ArrayList<Earthquake> earthquakes = new ArrayList<>();
 
         try {
             JSONObject root = new JSONObject(jsonString);
